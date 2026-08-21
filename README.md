@@ -1,17 +1,14 @@
-# JSON5_x
+# my-gkd-rules
 
-使用 JSON5 拆分维护 GKD 订阅规则，并构建为单个订阅文件。
+基于 [GKD 订阅模板](https://github.com/gkd-kit/subscription-template) 的个人订阅规则。
 
-## 目录
+## 开发
 
-- `src/subscription.json5`：订阅基础信息。
-- `src/apps/`：按应用包名拆分的规则源文件。
-- `dist/gkd.json5`：构建生成的订阅文件。
-
-## 构建
+需要 Node.js 22 或更高版本，以及 pnpm 9 或更高版本：
 
 ```bash
-npm run build
+pnpm install
+pnpm run build
 ```
 
-也可以使用 `npm start` 执行同样的构建命令。
+构建产物位于 `dist/gkd.json5`。

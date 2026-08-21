@@ -1,3 +1,14 @@
-node_modules/
+logs
+*.log
+pnpm-debug.log*
+
+.env
+.vscode
+.eslintcache
+.idea
+.DS_Store
+
+node_modules
+package-lock.json
+yarn.lock
 docs-main/
-ss.json5
