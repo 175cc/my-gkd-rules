@@ -1,0 +1,19 @@
+{
+  "id": "json5-x",
+  "name": "JSON5_x 订阅",
+  "version": 1,
+  "author": "JSON5_x",
+  "supportUri": "https://github.com/",
+  "apps": [
+    {
+      "id": "com.eg.android.AlipayGphone",
+      "name": "支付宝",
+      "groups": []
+    },
+    {
+      "id": "com.tencent.mm",
+      "name": "微信",
+      "groups": []
+    }
+  ]
+}

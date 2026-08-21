@@ -1,0 +1,19 @@
+{
+  "name": "json5-subscription",
+  "version": "1.0.0",
+  "description": "Build a GKD subscription from JSON5 rule sources",
+  "main": "index.js",
+  "scripts": {
+    "build": "node index.js",
+    "start": "npm run build"
+  },
+  "keywords": [
+    "json",
+    "learning"
+  ],
+  "author": "175cc",
+  "license": "ISC",
+  "dependencies": {
+    "json5": "^2.2.3"
+  }
+}
