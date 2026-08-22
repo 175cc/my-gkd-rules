@@ -6,7 +6,7 @@ import globalGroups from './globalGroups';
 export default defineGkdSubscription({
   id: 175,
   name: 'id667的补充订阅',
-  version: 20260822,
+  version: 20260823,
   author: '175cc',
   checkUpdateUrl: './gkd.version.json5',
   supportUri: 'https://gkd.li/',
