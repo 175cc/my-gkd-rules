@@ -8,6 +8,7 @@ export default defineGkdApp({
       key: 100,
       name: '开屏提示-我知道了',
       desc: '芝麻派',
+      enable: false,
       rules: [
         {
           matches: ['[text="提示"] <<3 LinearLayoutCompat [text="我知道了"]'],

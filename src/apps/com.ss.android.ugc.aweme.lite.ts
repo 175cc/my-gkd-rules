@@ -8,7 +8,8 @@ export default defineGkdApp({
       key: 100,
       name: '功能类-抖音支付积分',
       desc: '签到-返回',
-      resetMatch: 'match',
+      enable: false,
+      resetMatch: 'app',
       activityIds: [
         'com.ss.android.ugc.aweme.cjpay.hostimpl.container.CJLiveDummyActivity',
       ],

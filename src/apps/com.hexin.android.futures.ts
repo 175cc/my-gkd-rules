@@ -8,6 +8,7 @@ export default defineGkdApp({
       key: 100,
       name: '开屏弹窗-实盘报名',
       desc: ' ',
+      enable: false,
       rules: [
         {
           matches: ['[vid="closeImageView"][clickable=true]'],
@@ -22,6 +23,7 @@ export default defineGkdApp({
       key: 101,
       name: '开屏弹窗-打开通知',
       desc: ' ',
+      enable: false,
       rules: [
         {
           matches: [
