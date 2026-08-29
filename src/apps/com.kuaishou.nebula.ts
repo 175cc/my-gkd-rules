@@ -33,7 +33,10 @@ export default defineGkdApp({
           matches: ['@Image < View + View > View > [text="打开推送通知"]'],
           fastQuery: true,
           snapshotUrls: ['https://i.gkd.li/i/31335880'],
-          activityIds: ['com.yxcorp.gifshow.HomeActivity'],
+          activityIds: [
+            'com.yxcorp.gifshow.webview.KwaiYodaWebViewActivity',
+            'com.yxcorp.gifshow.HomeActivity',
+          ],
         },
       ],
     },
@@ -48,7 +51,10 @@ export default defineGkdApp({
           matches: ['@Image < View + View >n [text="去微信邀请好友"]'],
           fastQuery: true,
           snapshotUrls: ['https://i.gkd.li/i/31354466'],
-          activityIds: ['com.yxcorp.gifshow.webview.KwaiYodaWebViewActivity'],
+          activityIds: [
+            'com.yxcorp.gifshow.webview.KwaiYodaWebViewActivity',
+            'com.yxcorp.gifshow.HomeActivity',
+          ],
         },
       ],
     },
