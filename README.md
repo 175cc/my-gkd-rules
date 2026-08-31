@@ -1,5 +1,7 @@
 # my-gkd-rules
 
+id667的id667的补充订阅
+
 基于 [GKD 订阅模板](https://github.com/gkd-kit/subscription-template) 的个人订阅规则。
 
 ## 开发
