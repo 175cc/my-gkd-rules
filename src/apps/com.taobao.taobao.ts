@@ -27,6 +27,7 @@ export default defineGkdApp({
         {
           key: 0,
           matches: ['@[text="立即领取"] -n [text="确认收货"]'],
+          actionDelay: 1000,
           snapshotUrls: ['https://i.gkd.li/i/31626227'],
           activityIds: ['com.taobao.themis.container.app.TMSActivity'],
         },

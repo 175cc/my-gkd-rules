@@ -14,6 +14,8 @@ export default defineGkdApp({
           key: 0,
           matches: ['[vid="check_protocol"]'],
           fastQuery: true,
+          actionMaximum: 1,
+          resetMatch: 'app',
           snapshotUrls: ['https://i.gkd.li/i/31626045'],
           activityIds: ['.ui.LoginDialogActivity'],
         },
