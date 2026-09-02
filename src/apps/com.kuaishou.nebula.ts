@@ -23,6 +23,23 @@ export default defineGkdApp({
       ],
     },
     {
+      key: 102,
+      name: '弹窗-任务完成奖励',
+      desc: '任务中心弹窗',
+      enable: false,
+      rules: [
+        {
+          key: 0,
+          matches: ['@View +2 [text="任务完成奖励"]'],
+          snapshotUrls: ['https://i.gkd.li/i/31750726'],
+          activityIds: [
+            'com.yxcorp.gifshow.webview.KwaiYodaWebViewActivity',
+            'com.yxcorp.gifshow.HomeActivity',
+          ],
+        },
+      ],
+    },
+    {
       key: 103,
       name: '弹窗-开宝箱奖励已到账',
       desc: '任务中心弹窗',
