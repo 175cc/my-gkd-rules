@@ -15,11 +15,11 @@ export default defineGkdApp({
         {
           key: 0,
           matches: [
-            '@ViewGroup <2 ViewGroup < ViewGroup < ViewGroup < ViewGroup < ViewPager < LinearLayout <3 ViewGroup <n LinearLayout < HorizontalScrollView < ScrollView <2 ViewGroup <n FrameLayout < [vid="be6"]',
+            '@ViewGroup <2 ViewGroup +2 ViewGroup >n [desc^="交一次电费" || desc^="完成1笔话费" || desc^="油价涨别慌"]',
           ],
           fastQuery: true,
           actionMaximum: 1,
-          snapshotUrls: ['https://i.gkd.li/i/27329258'],
+          snapshotUrls: ['https://i.gkd.li/i/31876740'],
         },
         {
           preKeys: [0],
@@ -28,9 +28,9 @@ export default defineGkdApp({
             y: 'screenHeight/1.26',
           },
           matches: ['[desc^="返回"]'],
-          actionDelay: 400,
+          actionDelay: 500,
           fastQuery: true,
-          snapshotUrls: ['https://i.gkd.li/i/27329598'],
+          snapshotUrls: ['https://i.gkd.li/i/31876740'],
         },
       ],
     },

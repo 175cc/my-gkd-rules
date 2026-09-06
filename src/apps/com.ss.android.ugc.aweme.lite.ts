@@ -17,11 +17,10 @@ export default defineGkdApp({
         {
           key: 0,
           matches: [
-            '@ViewGroup <2 ViewGroup < ViewGroup < ViewGroup < ViewGroup < ViewPager < LinearLayout <3 ViewGroup -2 ViewGroup >n [desc="更多服务  按钮"]',
+            '@ViewGroup <2 ViewGroup +2 ViewGroup >n [desc^="交一次电费" || desc^="完成1笔话费" || desc^="油价涨别慌"]',
           ],
-          fastQuery: true,
           actionMaximum: 1,
-          snapshotUrls: ['https://i.gkd.li/i/27329258'],
+          snapshotUrls: ['https://i.gkd.li/i/31875727'],
         },
         {
           preKeys: [0],
@@ -32,7 +31,7 @@ export default defineGkdApp({
           matches: ['[desc^="返回"]'],
           actionDelay: 400,
           fastQuery: true,
-          snapshotUrls: ['https://i.gkd.li/i/27329598'],
+          snapshotUrls: ['https://i.gkd.li/i/31875727'],
         },
       ],
     },
