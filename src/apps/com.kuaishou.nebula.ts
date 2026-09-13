@@ -30,7 +30,9 @@ export default defineGkdApp({
       rules: [
         {
           key: 0,
-          matches: ['@View +2 [text="任务完成奖励"]'],
+          matches: [
+            '(@View +2 [text="任务完成奖励"]) || (@TextView +2 [text="任务完成奖励"])',
+          ],
           snapshotUrls: ['https://i.gkd.li/i/31750726'],
           activityIds: [
             'com.yxcorp.gifshow.webview.KwaiYodaWebViewActivity',
