@@ -15,7 +15,10 @@ export default defineGkdApp({
           actionMaximum: 1,
           matchTime: 5000,
           snapshotUrls: ['https://i.gkd.li/i/26212429'],
-          activityIds: ['com.hexin.plat.android.Hexin'],
+          activityIds: [
+            'com.hexin.plat.android.Hexin',
+            'com.hexin.plat.android.AndroidLogoActivity',
+          ],
         },
       ],
     },
@@ -24,15 +27,36 @@ export default defineGkdApp({
       name: '开屏弹窗-打开通知',
       desc: ' ',
       enable: false,
+      fastQuery: true,
       rules: [
         {
-          matches: [
-            'Button[vid="open_push_in_awaken_dialog"] -n RelativeLayout[vid="close_awaken_dialog"][clickable=true]',
-          ],
+          matches: ['@ImageView < [vid="close_awaken_dialog"]'],
           actionMaximum: 1,
           matchTime: 5000,
           snapshotUrls: ['https://i.gkd.li/i/26212436'],
-          activityIds: ['com.hexin.plat.android.Hexin'],
+          activityIds: [
+            'com.hexin.plat.android.Hexin',
+            'com.hexin.plat.android.AndroidLogoActivity',
+          ],
+        },
+      ],
+    },
+    {
+      key: 102,
+      name: '开屏弹窗-立即报名',
+      desc: ' ',
+      enable: false,
+      fastQuery: true,
+      rules: [
+        {
+          matches: ['[vid="closeImageView"]'],
+          actionMaximum: 1,
+          matchTime: 5000,
+          snapshotUrls: ['https://i.gkd.li/i/32204123'],
+          activityIds: [
+            'com.hexin.plat.android.Hexin',
+            'com.hexin.plat.android.AndroidLogoActivity',
+          ],
         },
       ],
     },

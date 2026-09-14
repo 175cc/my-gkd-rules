@@ -17,7 +17,7 @@ export default defineGkdApp({
         {
           key: 0,
           matches: [
-            '@ViewGroup <2 ViewGroup +2 ViewGroup >n [desc^="交一次电费" || desc^="完成1笔话费" || desc^="油价涨别慌"]',
+            '@ViewGroup < ViewGroup < LinearLayout < HorizontalScrollView < ScrollView <2 ViewGroup < ViewGroup + ViewGroup > ViewGroup > [desc^="抖音月付" || desc^="放心借"]',
           ],
           actionMaximum: 1,
           snapshotUrls: ['https://i.gkd.li/i/31875727'],
