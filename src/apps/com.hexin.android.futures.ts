@@ -6,13 +6,14 @@ export default defineGkdApp({
   groups: [
     {
       key: 100,
-      name: '开屏弹窗-实盘报名',
+      name: '开屏弹窗-报名',
       desc: ' ',
       enable: false,
+      fastQuery: true,
       rules: [
         {
-          matches: ['[vid="closeImageView"][clickable=true]'],
-          actionMaximum: 1,
+          matches: ['[vid="closeImageView"]'],
+          actionDelay: 300,
           matchTime: 5000,
           snapshotUrls: ['https://i.gkd.li/i/26212429'],
           activityIds: [
@@ -31,28 +32,9 @@ export default defineGkdApp({
       rules: [
         {
           matches: ['@ImageView < [vid="close_awaken_dialog"]'],
-          actionMaximum: 1,
+          actionDelay: 300,
           matchTime: 5000,
           snapshotUrls: ['https://i.gkd.li/i/26212436'],
-          activityIds: [
-            'com.hexin.plat.android.Hexin',
-            'com.hexin.plat.android.AndroidLogoActivity',
-          ],
-        },
-      ],
-    },
-    {
-      key: 102,
-      name: '开屏弹窗-立即报名',
-      desc: ' ',
-      enable: false,
-      fastQuery: true,
-      rules: [
-        {
-          matches: ['[vid="closeImageView"]'],
-          actionMaximum: 1,
-          matchTime: 5000,
-          snapshotUrls: ['https://i.gkd.li/i/32204123'],
           activityIds: [
             'com.hexin.plat.android.Hexin',
             'com.hexin.plat.android.AndroidLogoActivity',

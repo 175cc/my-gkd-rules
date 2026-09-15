@@ -17,7 +17,7 @@ export default defineGkdApp({
         {
           key: 0,
           matches: [
-            '@ViewGroup < ViewGroup < LinearLayout < HorizontalScrollView < ScrollView <2 ViewGroup < ViewGroup + ViewGroup > ViewGroup > [desc^="抖音月付" || desc^="放心借"]',
+            '(@ViewGroup <2 ViewGroup < ViewGroup < ViewGroup < ViewGroup - ViewGroup >n [desc^="抖音月付" || desc^="放心借"]) || (@ViewGroup - [desc="玩法已升级"])',
           ],
           actionMaximum: 1,
           snapshotUrls: ['https://i.gkd.li/i/31875727'],
